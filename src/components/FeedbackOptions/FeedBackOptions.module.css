@@ -9,6 +9,7 @@
   text-align: center;
   padding: 1px 5px;
   color: #022524;
+  transition: all 300ms;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -46,4 +47,9 @@
   background: -webkit-linear-gradient(#83b2f3, #ececec);
   background-image: -moz-linear-gradient(top, #83b2f3, #ececec);
   background-image: -moz-gradient(top, #83b2f3, #ececec);
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.05);
 }
